@@ -1,4 +1,4 @@
 # fedex-tracker
 
-### GUI created from CustomTkinter by TomSchimansky
+### GUI created using CustomTkinter by TomSchimansky
 [https://github.com/TomSchimansky/CustomTkinter]
