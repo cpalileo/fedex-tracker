@@ -18,6 +18,7 @@ html {
    * Remove the margin in all browsers.
    */
 body {
+  background-image: "assets/images/boxes.jpeg";
   margin: 0;
 }
 
