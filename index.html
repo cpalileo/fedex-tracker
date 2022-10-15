@@ -13,45 +13,44 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" type="image/png" href="assets/images/package.png" />
   </head>
+
   <body>
-    <header>
-      <h1>
-        <span style="color: #4D148C">Fed</span>
-        <spa style="color: #FF6600">Ex</span>
-      </h1>
-      <h2>Package Tracker</h2>
+    <header class="container">
+      <div class="row">
+        <div class="w-75 text-left">
+          <span class="h1 fed">Fed</span>
+          <span class="h1 ex">Ex</span>
+          <span class="h2">Package Tracker</span>
+        </div>
+        <div class="w-25 login-btn">
+          <button>Login</button>
+        </div>
+      </div>
     </header>
 
     <!-- max-width for ultra wide resolutions -->
-    <div>
-      <div class="row">
-        <aside>
-          <p>Input Tracking Number:</p>
-          <form id="search-form" class="form">
-            <div>
-              <div>
-                <input
-                  class="form-input package-search"
-                  type="text"
-                  id="search-input"
-                  placeholder="1Z12345E6605272234"
-                />
-                <div class="input-group-append">
-                  <button
-                    type="submit"
-                    class="btn search-button"
-                    id="search-button"
-                    aria-label="submit search"
-                  >
-                    Search
-                  </button>
-                </div>
-              </div>
-            </div>
-          </form>
-          <div class="list-group" id="history"></div>
-        </aside>
+    <div class="container search-body text-center">
+      <div>
+        <p>Input Tracking Number:</p>
       </div>
+      <div>
+        <form id="search-form" class="form">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="1Z12345E6605272234"
+          />
+          <div class="input-group-append">
+            <button type="submit" id="search-button" aria-label="submit search">
+              Search
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div>
+      <div class="list-group" id="history"></div>
     </div>
 
     <script src="assets/js/script.js"></script>

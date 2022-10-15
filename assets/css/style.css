@@ -1,9 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&display=swap');
 
-h1 {
-  font-family: 'Kumbh Sans';
+header {
+  display: inline-block;
 }
 
-span {
-  margin: 10px 0px 10px 0px;
+.fed {
+  font-family: 'Kumbh Sans';
+  color: #4d148c ;
 }
+
+.ex {
+  font-family: 'Kumbh Sans';
+  color: #ff6600
+}
+
+.login-btn {
+  text-align: right;
+}
+
+.search-body {
+  background-image: url("/assets/images/boxes.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* span {
+  margin: 10px 0px 10px 0px;
+} */
