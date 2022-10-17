@@ -1,4 +1,10 @@
-document.getElementById("searchBtn").onclick = function () {
-  let trackingInput = document.getElementById("searchInput").value;
-  alert(trackingInput);
+const searchButton = document.getElementById("searchBtn");
+const trackingNumber = document.getElementById("searchInput");
+let searchedNumber = "";
+
+searchButton.onclick = function () {
+  searchedNumber = trackingNumber.value;
+  alert(searchedNumber);
 };
+
+//Save to History
