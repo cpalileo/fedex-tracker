@@ -14,12 +14,11 @@
     <link rel="icon" type="image/png" href="assets/images/package.png" />
   </head>
 
-  <body>
+  <body class="mh-100 mw-100">
     <header class="container">
       <div class="row">
         <div class="w-75 text-left">
-          <span class="h1 fed">Fed</span>
-          <span class="h1 ex">Ex</span>
+          <span class="h1 mr-0 fed">Fed</span><span class="h1 ml-0 ex">Ex</span>
           <span class="h2">Package Tracker</span>
         </div>
         <div class="w-25 login-btn">
@@ -28,20 +27,23 @@
       </div>
     </header>
 
-    <!-- max-width for ultra wide resolutions -->
-    <div class="container search-body text-center">
+    <!-- Jumbotron -->
+    <div
+      class="search-body text-center justify-content-center align-items-center"
+      ;
+    >
+      <div></div>
+      <h1 class="mb-3 mt-3 pt-3 h2">Input Tracking Number:</h1>
+
       <div>
-        <p>Input Tracking Number:</p>
-      </div>
-      <div>
-        <form id="search-form" class="form">
+        <form id="searchForm">
           <input
             type="text"
-            id="search-input"
+            id="searchInput"
             placeholder="1Z12345E6605272234"
           />
-          <div class="input-group-append">
-            <button type="submit" id="search-button" aria-label="submit search">
+          <div class="mt-2 pb-3">
+            <button type="submit" id="searchBtn" aria-label="submit search">
               Search
             </button>
           </div>

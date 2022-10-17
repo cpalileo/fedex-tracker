@@ -19,12 +19,7 @@ header {
 }
 
 .search-body {
-  background-image: url("/assets/images/boxes.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("/assets/images/boxes.jpeg") no-repeat center;
   background-size: cover;
+  opacity: .5;
 }
-
-/* span {
-  margin: 10px 0px 10px 0px;
-} */

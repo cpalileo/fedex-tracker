@@ -1,5 +1,4 @@
-reference.js;
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-}
+document.getElementById("searchBtn").onclick = function () {
+  let trackingInput = document.getElementById("searchInput").value;
+  alert(trackingInput);
+};
