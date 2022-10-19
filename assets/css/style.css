@@ -23,3 +23,20 @@ header {
   background-size: cover;
   opacity: .5;
 }
+
+body {
+  margin: 3rem auto;
+  max-width: 150vw;
+  width: 55ch;
+}
+
+ul {
+  margin: 3rem auto;
+  font-size: 1.75rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  margin: 1.2rem 0;
+}
