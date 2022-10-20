@@ -30,6 +30,10 @@ body {
   width: 55ch;
 }
 
+.formInput {
+  width: 22ch; 
+}
+
 ul {
   margin: 3rem auto;
   font-size: 1.75rem;
