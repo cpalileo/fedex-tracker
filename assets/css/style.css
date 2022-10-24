@@ -44,3 +44,17 @@ ul {
 ul li {
   margin: 1.2rem 0;
 }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}

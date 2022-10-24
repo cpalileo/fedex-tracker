@@ -29,7 +29,7 @@ function addTracking(event) {
   trackingItemData.text(apiData);
 
   trackingItemEl.append(
-    "<button class='btn btn-danger btn-small delete-tracking-btn'>Remove</button>"
+    "<button class='btn btn-secondary btn-sm delete-tracking-btn'>Remove</button>"
   );
 
   trackingListEl.append(trackingItemEl, trackingItemData);
