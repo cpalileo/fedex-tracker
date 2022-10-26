@@ -1,4 +1,7 @@
+const MY_KEY = process.env.API_KEY;
+
 const trackingFormEl = $("#searchForm");
+
 const trackingListEl = $("#trackingList");
 
 function addTracking(event) {
